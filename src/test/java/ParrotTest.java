@@ -12,8 +12,8 @@ public class ParrotTest {
     public void parrotTestHello(){
         String input = "hello";
         String expected = "hello";
-        String actual = p.copy(input);
-        Assert.assertEquals(expected, actual);
+        String actual = p.copy(input);        Assert.assertEquals(expected, actual);
+
     }
     /**
      * If p.copy is passed "polly", it should return "polly".
